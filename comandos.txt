@@ -1,0 +1,6 @@
+cd "C:\Users\paulo\calculadora_comissao_vendedor"
+icacls .\calculadora_comissao_vendedor.sh /reset
+icacls .\calculadora_comissao_vendedor.sh /inheritance:r
+icacls .\calculadora_comissao_vendedor.sh /grant "PAULO\paulo:(F)"
+icacls .\calculadora_comissao_vendedor.sh /grant "Usuários:(R)"
+bash .\calculadora_comissao_vendedor.sh
